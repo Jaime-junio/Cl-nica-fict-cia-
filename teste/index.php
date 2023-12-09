@@ -40,7 +40,7 @@
             $conn = new mysqli($servername, $username, $password, $dbname);
             
             // Verificar se o usuário já existe no banco de dados
-            $query = "SELECT * FROM clientes WHERE nome='$nome' AND email='$email'";
+            $query = "SELECT * FROM agendados WHERE nome='$nome' AND email='$email'";
             $result = $conn->query($query);
             if ($result->num_rows > 0) {
                 echo "<p>Já existe um registro com esses dados.</p>";
