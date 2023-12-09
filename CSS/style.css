@@ -4,58 +4,28 @@
     background-color: aqua;
 }
 
-
-
-.calendar {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-gap: 10px;
+.navbar-nav{
+    justify-content: space-between;
 }
 
-.calendar button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+.nav-link{
+    color: red;
+    font-size: 22px;
+    margin-left: 250px;
+    border-radius: 30px;
+    
 }
-
-.calendar button:hover {
-    background-color: #45a049;
+.nav-link:hover{
+    border: 2px solid blue;
+    color: blue;
+    background-color: white;
 }
-
-
-
-
-
 
 
 header {
     background-color: #f4f4f4;
-    padding: 20px;
     text-align: center;
 }
 
-h1 {
-    color: #333;
-}
 
-section {
-    margin: 20px;
-}
-
-h2, h3 {
-    color: #666;
-}
-
-footer {
-    background-color: #f4f4f4;
-    padding: 20px;
-    text-align: center;
-}
 
