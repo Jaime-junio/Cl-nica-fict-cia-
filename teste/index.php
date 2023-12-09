@@ -35,7 +35,7 @@
             $servername = "localhost";
             $username = "root";
             $password = "";
-            $dbname = "agendamento";
+            $dbname = "agenda";
             
             $conn = new mysqli($servername, $username, $password, $dbname);
             
@@ -46,7 +46,7 @@
                 echo "<p>Já existe um registro com esses dados.</p>";
             } else {
                 // Adicionar novo registro ao banco de dados
-                $query = "INSERT INTO clientes (nome, email, telefone, data, hora) VALUES ('$nome', '$email', '$telefone', '$data', '$hora')";
+                $query = "INSERT INTO agendados (nome, email, telefone, data, hora) VALUES ('$nome', '$email', '$telefone', '$data', '$hora')";
                 $conn->query($query);
                 echo "<p>Registro adicionado com sucesso.</p>";
             }
