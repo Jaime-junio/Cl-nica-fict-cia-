@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Agendamento</h1>
-    <form action="agenda.php" method="post">
+    <form action="index.php" method="post">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome"><br><br>
         <label for="email">E-mail:</label>
