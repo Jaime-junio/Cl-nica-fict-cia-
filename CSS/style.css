@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Dancing+Script:wght@700&display=swap');
+
+.bg-aqua{
+    background-color: aqua;
+}
+
+
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+}
+
+.calendar button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.calendar button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+section {
+    margin: 20px;
+}
+
+h2, h3 {
+    color: #666;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
