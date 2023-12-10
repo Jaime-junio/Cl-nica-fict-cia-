@@ -50,6 +50,15 @@
         <input type="date" id="data" name="data" required><br><br>
         <label for="hora">Hora:</label>
         <input type="time" id="hora" name="hora" required><br><br>
+        <label for="servico">Escolha o Serviço:</label>
+        <select name="servico" id="servico">
+          <option value="consulta_medica">Consultas Médicas</option>
+          <option value="exames_rotina">Exames de Rotina</option>
+          <option value="exames_imagem">Exames de Imagem</option>
+          <option value="laboratorio_clinico">Laboratório Clínico</option>
+          <option value="servicos_reabilitacao">Serviços de Reabilitação</option>
+        </select><br><br>
+
         <input class="button" type="submit" value="Agendar">
     </form>
   </div>
