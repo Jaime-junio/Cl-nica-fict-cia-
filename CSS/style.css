@@ -4,7 +4,29 @@
     background-color: aqua;
 }
 
+.text-aqua{
+    font-size: 16px;
+    color: aqua;
+}
 
+.lista-servicos li{
+    text-align: center;
+    list-style: none;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px black;
+}
+.textos-principais{
+    color: aqua;
+    text-align: center;
+    margin: 30px;
+}
+.textos-principais p{
+    font-size: 22px;
+    text-shadow: 2px 2px 4px black;
+}
+.textos-principais h2, h1{
+    text-shadow: 2px 2px 4px blue;
+}
 
 .navbar-nav{
     justify-content: space-between;
@@ -14,7 +36,7 @@
     font-size: 22px;
     margin-left: 250px;
     border-radius: 30px;
-    
+    font-weight: bold;
 }
 
 .nav-link:hover{
@@ -111,4 +133,40 @@ footer{
     font-size: xx-large;
     text-align: center;
     padding-top: 4%;
+}
+
+.agendamento{
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 400px;
+    height: 500px;
+    margin-left: 5%;
+    box-shadow: 0 0 6px 6px aqua;
+}
+
+.agendamento label{
+    font-size: 22px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.agendamento input{
+    border-radius: 30px;
+    padding: 4px;
+}
+.agendamento .button{
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 6px;
+    font-size: 20px;
+    background-color: aqua;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+}
+
+.agendamento .button:hover{
+    box-shadow: 0 0 12px 8px aqua;
+}
+.agendamento input::placeholder{
+    color: black;
+    text-align: center;
 }
