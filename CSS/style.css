@@ -4,28 +4,111 @@
     background-color: aqua;
 }
 
+
+
 .navbar-nav{
     justify-content: space-between;
 }
 
 .nav-link{
-    color: red;
     font-size: 22px;
     margin-left: 250px;
     border-radius: 30px;
     
 }
+
 .nav-link:hover{
     border: 2px solid blue;
     color: blue;
-    background-color: white;
+    box-shadow: 0 0 15px 7px black;
 }
 
 
 header {
-    background-color: #f4f4f4;
+    background-color: #e5e3e3;
     text-align: center;
 }
 
+#logo{
+    width: 100px;
+    border-radius: 50%;
+}
 
+.img-conteudo{
+    width: 800px;
+    height: 595px;
+    border-radius: 30px 0 0 30px;
+}
 
+.container-esquerdo{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 97%;
+    background-color: aquamarine;
+    margin: 25px;
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: 0 0 15px 9px aqua;
+}
+
+.container-direito{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 97%;
+    background-color: aquamarine;
+    margin: 25px;
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: 0 0 15px 9px aqua;
+}
+
+.conteudo-direito p{
+    padding: 29px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.conteudo-esquerdo p{
+    padding: 39px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.conteudo-direito img{
+    border-radius: 0 30px 30px 0;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: space-around;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.card-img{
+    width: 150px;
+    height: 200px;
+    box-shadow: 0 0 15px 9px aqua;
+}
+
+.card-text{
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+footer{
+    height: 200px;
+    color: aqua;
+    background-color: rgb(33, 30, 30);
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 4%;
+}
