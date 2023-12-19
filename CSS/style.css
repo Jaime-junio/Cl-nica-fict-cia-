@@ -72,6 +72,8 @@ header {
     border: 3px solid black;
     border-radius: 30px;
     box-shadow: 0 0 15px 9px aqua;
+    left: -100%;
+    transition: left 5s ease-in-out;
 }
 
 .container-direito{
@@ -84,6 +86,16 @@ header {
     border: 3px solid black;
     border-radius: 30px;
     box-shadow: 0 0 15px 9px aqua;
+    right: -100%;
+    transition: left 5s ease-in-out;
+}
+
+#div1,#div3{
+    left: -1500px ;
+}
+
+#div2{
+    right: -1500px;
 }
 
 .conteudo-direito p{
@@ -169,4 +181,16 @@ footer{
 .agendamento input::placeholder{
     color: black;
     text-align: center;
+}
+
+
+.carousel{
+    margin-bottom: 80px;
+}
+.carousel-inner{
+    height: 600px;
+}
+
+@media screen and (max-width: 768px) {
+    
 }
